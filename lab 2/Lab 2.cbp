@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Lab 2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Lab 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Lab 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="LabInfo.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Number between 1-100.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Q15_finished3ways.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="areaOfACircle.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="areaOfARectangle.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="evenNumFrom0_1000.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="largestNum.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="numBetween1-100.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="oddNumbersBetween2intergers.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="printNum5to9.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="questionAns.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="randomNum.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="tempHumidityAlarm.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
