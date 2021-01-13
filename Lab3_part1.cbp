@@ -32,6 +32,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="ArrayOfSum.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Arrays.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ChristmasTree.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="LabInfo.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
