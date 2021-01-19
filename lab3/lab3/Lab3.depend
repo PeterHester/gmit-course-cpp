@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1610650397 source:c:\users\phester\documents\labs_cpp\examples\lab3\main.cpp
+1610999322 source:c:\users\phester\documents\labs_cpp\examples\lab3\main.cpp
 	<iostream>
 	"ChristmasTree.h"
 	"LabInfo.h"
@@ -7,18 +7,18 @@
 	"Arrays.h"
 	"ArrayOfSum.h"
 
-1610654324 c:\users\phester\documents\labs_cpp\examples\lab3\christmastree.h
+1611048042 c:\users\phester\documents\labs_cpp\examples\lab3\christmastree.h
 	<iostream>
 
-1610214575 c:\users\phester\documents\labs_cpp\examples\lab3\labinfo.h
+1610704039 c:\users\phester\documents\labs_cpp\examples\lab3\labinfo.h
 	<iostream>
 
 1610531989 c:\users\phester\documents\labs_cpp\examples\lab3\numsinarray.h
 	<iostream>
 
-1610543154 c:\users\phester\documents\labs_cpp\examples\lab3\arrays.h
+1610999415 c:\users\phester\documents\labs_cpp\examples\lab3\arrays.h
 	<iostream>
 
-1610651343 c:\users\phester\documents\labs_cpp\examples\lab3\arrayofsum.h
+1610999322 c:\users\phester\documents\labs_cpp\examples\lab3\arrayofsum.h
 	<iostream>
 
