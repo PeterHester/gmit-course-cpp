@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1610999322 source:c:\users\phester\documents\labs_cpp\examples\lab3\main.cpp
+	<iostream>
+	"ChristmasTree.h"
+	"LabInfo.h"
+	"NumsInArray.h"
+	"Arrays.h"
+	"ArrayOfSum.h"
+
+1611048042 c:\users\phester\documents\labs_cpp\examples\lab3\christmastree.h
+	<iostream>
+
+1610704039 c:\users\phester\documents\labs_cpp\examples\lab3\labinfo.h
+	<iostream>
+
+1610531989 c:\users\phester\documents\labs_cpp\examples\lab3\numsinarray.h
+	<iostream>
+
+1610999415 c:\users\phester\documents\labs_cpp\examples\lab3\arrays.h
+	<iostream>
+
+1610999322 c:\users\phester\documents\labs_cpp\examples\lab3\arrayofsum.h
+	<iostream>
+
