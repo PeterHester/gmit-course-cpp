@@ -1,0 +1,43 @@
+#pragma once
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+class Player{
+private:
+    string forename;
+    string surname;
+    string position;
+    string mobileNumber;
+
+public:
+    
+    void setPlayer(string forename,string surname,string position,string mobileNumber){ 
+        this->forename=forename;
+        this->surname = surname;
+        this->position = position;
+        this->mobileNumber = mobileNumber;
+    }
+// Functions Print Info
+    void printInfo(string str1, string str2, string str3, string str4 ){ 
+        cout<<str1<<" "<<str2<<" "<<str3<<" "<<str4<<endl;
+    }
+
+    string getForename(){
+        return forename;
+}
+    string getSurname(){
+        return surname;
+        }
+    string getPosition(){
+        return position;
+    }
+
+    string getMobileNumber(){
+        return mobileNumber;
+     }
+
+};
+
+

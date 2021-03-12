@@ -1,13 +1,16 @@
+#pragma once
 #include <iostream>
 using namespace std;
 #include <iomanip>
+#include "football_club.h"
 
 class FootballClub{
 private:
     string clubname;
     string district;
     string stripColour;
-
+    Player squad[40];
+    Player team[15];
 public:
     //Create constructors
     FootballClub(string clubname,string district){
@@ -35,9 +38,9 @@ public:
         string    setStripColour(string stripColour);
         string   getStripColour();
 
-
-
-
+    void addPlayer(Player tmp,int position){
+    team[position]
+    }
 
 
 

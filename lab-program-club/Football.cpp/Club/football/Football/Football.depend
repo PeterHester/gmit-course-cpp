@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1615576912 source:c:\users\phester\documents\github\gmit-course-cpp\lab-program-club\football.cpp\club\football\football\main.cpp
+	<iostream>
+	"football_club.h"
+	"player.h"
+
+1615576912 c:\users\phester\documents\github\gmit-course-cpp\lab-program-club\football.cpp\club\football\football\football_club.h
+	<iostream>
+	<iomanip>
+	"player.h"
+
+1615576912 c:\users\phester\documents\github\gmit-course-cpp\lab-program-club\football.cpp\club\football\football\player.h
+	<iostream>
+	<iomanip>
+

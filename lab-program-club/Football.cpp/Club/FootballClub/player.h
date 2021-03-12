@@ -1,4 +1,4 @@
-
+#pragma once
 #include <iostream>
 using namespace std;
 #include <iomanip>
@@ -9,8 +9,9 @@ private:
     string surname;
     string position;
     int mobileNumber;
-
+    int dob;
 public:
+    Player();
     Player(string forename,string surname);
     Player(string forename,string surname,string position,int mobileNumber);
 // Functions Print Info
@@ -18,14 +19,13 @@ public:
     string getForename();
     string getSurname();
     string getPosition();
-    int getMobileNumber();
+
 //Setter function
     void setName(string forename,string surname);
     string getName();
 //Setter function
-  void setMobileNumber(int mobileNumber){
+  void setMobileNumber(long long int mobileNumber);
      int getMobileNumber();
-    }
 
 };
 

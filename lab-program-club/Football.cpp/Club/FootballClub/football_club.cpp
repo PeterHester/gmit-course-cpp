@@ -1,16 +1,31 @@
-#include <iostream>
-using namespace std;
 #include "football_club.h"
-int main()
-{
-    FootballClub club("Castlerea Celtic","Roscommon and district League");
-    club.printInfo();
-    club.setclubname("Castlerea Celtic");
-    club.setDistrict("Roscommon and district League");
-    string clubName = club.getclubname();
-    string district = club.getDistrict();
-    cout<< clubName<<endl;
-    cout<< district<<endl;
-    return 0;
-}
 
+ //Create constructors
+    FootballClub(string clubname,string district){
+}
+// Functions Print Info
+    void printInfo(){
+    cout<<clubname<<endl;
+    }
+
+        string  getclubname(){
+        return clubname;
+        }
+        void setclubname(string clubnameTmp){
+        this->clubname=clubnameTmp;
+        }
+
+        string   getDistrict(){
+        return district;
+        }
+        void  setDistrict(string districtTmp){
+        this->district=districtTmp;
+        }
+
+
+        string    setStripColour(string stripColour);
+        string   getStripColour();
+
+    void addPlayer(Player tmp,int position){
+    team[position]
+    }
