@@ -1,0 +1,43 @@
+#include <iostream>
+
+using namespace std;
+
+#include "player.h"
+
+class FootballClub{
+private:
+
+    string clubname;
+    string district;
+    string stripColour;
+    string manager; //function to add in a manager
+    // const static int , way to make a constant variable in a class
+    const static int MAXSQUAD = 23;
+    Player squad[MAXSQUAD];
+  
+
+
+
+public:
+
+
+    //contructor
+    FootballClub();
+    FootballClub(string clubname, string district,string manager);
+
+    string getClubname();
+    string getDistrict();
+    string getManagerName();//to get access to private manager
+    void setClubname(string clubname);
+    void setDistrictname(string district);
+    void setManagerName(string manager);
+    void printInfo();
+
+
+    void addPlayerToSquad(Player tmp, int position);
+
+  // void addPlayerToTeam(Player tempPlayer,int ID,this ->ptrMaxteam=ptrMaxteam)
+    void printTeam();
+    void printSquad();
+};
+
